@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is your age?"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/ageGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18-25 Years Old"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="26-35 Years Old"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="36 Years Old Above"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How would you rate your experience in exercising?"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <RadioGroup
+        android:id="@+id/experienceGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beginner"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intermediate"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experienced"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please input your height and weight"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height (cm)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/bmiResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textSize="18sp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/goToMainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Main"
+        android:visibility="gone" />
+
+</LinearLayout>

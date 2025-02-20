@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">FitFocus</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click to Login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="user_details">User Details</string>
+
+    <string name="pose1">    Step 1:- Start in the push-up position with your arms completely straight and directly beneath your shoulders.\n\n
+                             Step 2:- Your body should form a straight line from your shoulders to your ankles. \n\n
+                             Step 3:- Squeeze your abs, lift one foot off the floor and bring your knee up towards your chest while keeping your body in as straight of a line as possible. \n\n
+                             Step 4:- Return to the starting position and repeat the movement with your opposite leg.. </string>
+    <string name="pose2">    Step 1:- Lie flat on your mat with knees bent and feet on the mat. Hands at the base ofyour head and elbows pointed out. Using your abdominals bring your head and shoulders off the mat and come up into a crunch, then lower with control. </string>
+    <string name="pose3">    Step 1:- This movement is performed with a bench and a foot stool.\n\n
+                             Step 2:- Place a bench behind yourself and rest on it with your hands. Place your legs straight out in front of you. You may also place them at an elevated level as shown above.\n\n
+                             Step 3:- Begin with arms in a fully. Slowly bend at your elbows keeping the rest of your body straight. Be sure to keep your elbows back and close together.\n\n
+                             Step 4:- Dip down until your arms form a 90 degree angle and you feel a stretch in the triceps.\n\n
+                             Step 5:- Slowly extend your arms raising your body back up. Pause and contract your triceps muscles at the top. Pause and repeat the movement.</string>
+    <string name="pose4">    Step 1:- Lie flat on the floor with your lower back pressed to the ground (pull your navel in to also target your deep abs). \n\n
+                             Step 2:- Put your hands behind your head, then bring your knees in towards your Chest and lift your shoulder blades off the ground, but be sure not to pull on your neck.\n\n
+                             Step 3:-Straighten your right leg out to about a 4S-degree angle to the ground while turning your upper body to the left, bringing your right elbow towards the left knee.\n\n
+                             Step 4:- Make sure your rib cage is moving and hotjust your elbows. Now switch sides and do the same motion on the other side to complete onerep. </string>
+    <string name="pose5">   Step 1:- Lay down with your hands to your sides for support. \n\n
+                             Step 2:- Raise your legs so they are off the ground, keeping the abdominals tight.\n\n
+                             Step 3:- Slowly raise your legs 90 degrees, contracting the abdominal muscles. Slowly return to starting position. Do not touch the floor with your feet.\n\n
+                            </string>
+
+
+    <string name="pose6">    Step 1:- Lie on your back on an exercise mat. With your arms straight at your sides, bend your knees and place your feet flat on the floor between18 and 24 inches apart.\n\n
+                             Step 2:- Breathing out, crunch your ab slightly upward and sideways to the right a couple of inches until your right hand touches your right heel.\n\n
+                             Step 3:- Hold brief|y and then return to your starting position while inhaling. Repeat on the left side. </string>
+    <string name="pose7">    Step 1:- You can perform straight-leg crunches by lying face up on the floor with your legs straight and then moving your upper body as you would for a standard bent-knee crunch.\n\n
+                             Step 2:- Alternatively, lie on your back, raise your legs so they are perpendicular to the floor and then perform the standard crunching motion with your torso.
+                             </string>
+    <string name="pose8">    Step 1:- Lie down on the floor placing your feet either under something that Will not move or by having a partner hold them. Your legs should be bent at the kneesPlace your hands behind your head and lock them together by claspihg your fingers. This is the starting position.\n\n
+                             Step 2:- Elevate your upper body so that it creates an imaginary V-shape with your thighs. Breathe out when performing this part of the exercise.\n\n
+                             Step 3:- Once you feel the contraction for a second, lower your upper body back down to the starting position while inhahng. \n\n
+                             Step 4:- Repeat for the recommended amount of repetitions.
+                            </string>
+    <string name="pose9">    Step 1:- Lying on the back,lift stright leg,extend opposite hand to touch toe. \n\n
+                             Step 2:- Please,return,alternate inhale down,exhale up at toe touch.
+                            </string>
+    <string name="pose10">    Step 1:- High Plank position then slowly rotate your torso to the side raising your arm till it gets ihlihe with the other one. \n\n
+                             Step 2:- Then return to the initial position.
+                            </string>
+    <string name="pose11">    Step 1:- Lie on the floor with elbows directly beneath your shoulders and legs fully extended.\n\n
+                             Step 2:- Raise your torso into the air until it makes a straight line from your shoulders to your ankles. Tighten your stomach, squeeze your butt.
+                            </string>
+    <string name="pose12">    Step 1:- Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees. Elevate your upper body so that it creates an imaginary V-shape with your thighs. \n\n
+                             Step 2:- Your arms should be fully extended in front of you perpendicular to your torso and with the hands clasped. This is the starting position.\n\n
+                             Step 3:- This is the starting position. Twist your torso to the right side until your arms are parallel with the floor while breathing out. \n\n
+                             Step 4:- Hold the contraction for a second and move back to the starting position while breathing out. Now move to the opposite side performing the same techniques you applied to the right side. Repeat for the recommended amount of repetitions.
+                            </string>
+    <string name="pose13">    Step 1:- Lie on your back with your knees bent, feet flat and hip width. \n\n
+                             Step 2:- Lower your pelvis 2 inches from the floor. Squeeze your glutes and lift your pelvis back to bridge position.
+
+                            </string>
+    <string name="pose14">    Step 1:- Lie facedown on the floor with your arms extended in front of you and your leg extended behind you. \n\n
+                             Step 2:- In one movement,engage your glutes and lower back to raise your arms,legs,and chest off the floor.\n\n
+                             Step 3:- Hold for a count,then slowly return to the starting position.
+                            </string>
+    <string name="pose15">   Step 1:- Stand, extend arms 90° to sides, bend forward 90° at waist.\n\n
+                             Step 2:- Looking at the floor, rotate torso to touch hand to foot, rotate for other hand. \n\n
+                             Step 3:- Head will follow chest action. </string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="dont_have_account">Don\'t have account?</string>
+
+    <string-array name="title_story">
+        <item>Low-Calorie Nasi Lemak with Cauliflower Rice</item>
+        <item>Chicken Satay Salad</item>
+        <item>Avocado and Egg Toast</item>
+        <item>Chickpea and Spinach Curry</item>
+        <item>Tuna and Avocado Wrap</item>
+    </string-array>
+
+    <string-array name="details_story">
+        <item><![CDATA[
+        <b>Ingredients:</b><br>
+        - 1 small cauliflower, grated or processed into rice-sized pieces<br>
+        - 1 cup coconut milk<br>
+        - 1 pandan leaf (optional for aroma)<br>
+        - 1 cucumber, sliced<br>
+        - 1 boiled egg, halved<br>
+        - Small handful of roasted peanuts<br>
+        - Small handful of ikan bilis (anchovies)<br>
+        - Sambal (store-bought or homemade)<br><br>
+
+        <b>Instructions:</b><br>
+        1. Steam or microwave the grated cauliflower until tender.<br>
+        2. In a pot, combine the cauliflower, coconut milk, and pandan leaf. Cook on low heat until the mixture thickens slightly.<br>
+        3. Serve the cauliflower rice with cucumber slices, boiled egg, roasted peanuts, ikan bilis, and a spoonful of sambal.
+        ]]></item>
+        <item><![CDATA[
+        <b>Ingredients:</b><br>
+        - 1 lb (450g) boneless, skinless chicken breast, cut into strips<br>
+        - 2 tablespoons soy sauce<br>
+        - 1 tablespoon peanut butter<br>
+        - 1 tablespoon lime juice<br>
+        - 1 teaspoon honey<br>
+        - Mixed salad greens (lettuce, spinach, arugula)<br>
+        - 1 cucumber, sliced<br>
+        - 1 carrot, julienned<br>
+        - Fresh cilantro for garnish<br><br>
+
+        <b>Instructions:</b><br>
+        1. In a bowl, mix soy sauce, peanut butter, lime juice, and honey.<br>
+        2. Marinate the chicken strips in this mixture for at least 30 minutes.<br>
+        3. Grill or pan-fry the chicken until cooked through, about 5-7 minutes per side.<br>
+        4. Arrange salad greens on a plate, top with cucumber, carrot, and the cooked chicken.<br>
+        5. Garnish with fresh cilantro and serve.<br><br>
+
+        <b>Benefits:</b><br>
+        - Lean protein from chicken.<br>
+        - Healthy fats from peanut butter.<br>
+        - Fresh and crunchy vegetables in the salad.
+        ]]></item>
+        <item><![CDATA[
+        <b>Ingredients:</b><br>
+        - 1 ripe avocado<br>
+        - 2 eggs<br>
+        - 2 slices of whole grain bread<br>
+        - Salt and pepper to taste<br>
+        - Red pepper flakes (optional)<br><br>
+
+        <b>Instructions:</b><br>
+        1. Toast the slices of bread until golden brown.<br>
+        2. In a pan, cook the eggs to your preferred style (scrambled, poached, fried).<br>
+        3. While the eggs are cooking, mash the avocado in a bowl and season with salt and pepper.<br>
+        4. Spread the mashed avocado on the toasted bread slices.<br>
+        5. Place the cooked eggs on top of the avocado spread.<br>
+        6. Sprinkle with red pepper flakes if desired, and serve.
+        ]]></item>
+        <item><![CDATA[
+        <b>Ingredients:</b><br>
+        - 1 can chickpeas, drained and rinsed<br>
+        - 2 cups fresh spinach, chopped<br>
+        - 1 onion, chopped<br>
+        - 2 garlic cloves, minced<br>
+        - 1 can diced tomatoes<br>
+        - 1 tablespoon curry powder<br>
+        - 1 teaspoon cumin<br>
+        - 1 teaspoon turmeric<br>
+        - Salt and pepper to taste<br><br>
+
+        <b>Instructions:</b><br>
+        1. In a large pan, sauté the onion and garlic until fragrant.<br>
+        2. Add the curry powder, cumin, and turmeric, and cook for another minute.<br>
+        3. Stir in the chickpeas, tomatoes, and spinach.<br>
+        4. Cook until the spinach is wilted and the mixture is heated through.<br>
+        5. Season with salt and pepper to taste, and serve with rice or naan bread.
+        ]]></item>
+        <item><![CDATA[
+        <b>Ingredients:</b><br>
+        - 1 can tuna, drained<br>
+        - 1 ripe avocado<br>
+        - 1 tablespoon mayonnaise<br>
+        - 1 tablespoon lime juice<br>
+        - Salt and pepper to taste<br>
+        - 2 whole grain wraps<br>
+        - Mixed greens or lettuce<br><br>
+
+        <b>Instructions:</b><br>
+        1. In a bowl, mash the avocado and mix with the mayonnaise and lime juice.<br>
+        2. Add the drained tuna to the avocado mixture and stir until well combined.<br>
+        3. Season with salt and pepper to taste.<br>
+        4. Lay out the wraps and place a handful of mixed greens or lettuce on each.<br>
+        5. Spread the tuna and avocado mixture over the greens.<br>
+        6. Roll up the wraps, slice in half, and serve.
+        ]]></item>
+    </string-array>
+
+    <string-array name="image_story">
+        <item>nasi_lemak</item>
+        <item>chicken_satay_salad</item>
+        <item>avocado</item>
+        <item>chickpea</item>
+        <item>tuna</item>
+    </string-array>
+</resources>

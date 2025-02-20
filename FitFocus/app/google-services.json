@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "754332788008",
+    "project_id": "login-register-fitfocus",
+    "storage_bucket": "login-register-fitfocus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754332788008:android:ecb6ab11ba99ab42ec9c1d",
+        "android_client_info": {
+          "package_name": "com.example.fitfocus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAduNmlEQFowMYiwnyxOm2meLvygzEFpjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

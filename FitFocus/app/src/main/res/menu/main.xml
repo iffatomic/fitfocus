@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/id_privacy"
+        android:title="Privacy Policy"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/id_term"
+        android:title="Terms and Conditions"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/id_restart"
+        android:title="Restart Workout"
+        android:showAsAction="never" />
+</menu>

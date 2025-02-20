@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Outer background stroke -->
+    <stroke
+        android:color="#1E90FF"
+        android:width="7dp" />
+
+    <!-- Inner background color -->
+    <solid android:color="#87CEEB" />
+
+    <!-- Size of the button -->
+    <size
+        android:width="170dp"
+        android:height="170dp" />
+
+</shape>

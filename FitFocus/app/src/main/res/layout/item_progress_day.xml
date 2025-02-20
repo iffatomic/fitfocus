@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Day Count -->
+    <TextView
+        android:id="@+id/tv_day_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Day 1"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Calories Burned -->
+    <TextView
+        android:id="@+id/tv_calories_burned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Calories Burned: 300"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+
+    <!-- Time Spent -->
+    <TextView
+        android:id="@+id/tv_time_spent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Time Spent: 45 mins"
+        android:textColor="#555555"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="popupMenuStyle">@style/MyPopupMenu</item>
+        <item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+    </style>
+
+    <!-- Custom style for popup menu -->
+    <style name="MyPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <!-- Theme for activities that use a toolbar instead of the action bar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Custom Toolbar theme with white text and icons -->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:colorControlNormal">@android:color/white</item>
+    </style>
+</resources>

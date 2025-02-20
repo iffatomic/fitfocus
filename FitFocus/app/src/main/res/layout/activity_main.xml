@@ -1,0 +1,430 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#22f1eaea"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Toolbar Section -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="textEnd"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="FitFocus"
+        app:titleTextColor="#FFF"
+        android:gravity="end" />
+
+    <!-- User Profile Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/textViewWelcome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Welcome,"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/user_details"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/user_details" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Weight Loss Section-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:onClick="weightloss"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5dp"
+                            android:text="Weight Loss"
+                            android:textColor="#000000"
+                            android:textSize="20.0dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5dp"
+                            android:text="Days 30"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5dp"
+                            android:text="15 Minutes Per Session"
+                            android:textColor="#ffff5722"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/exersice_7"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/startweightloss"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn"
+                    android:text="Get Started"
+                    android:textAllCaps="true"
+                    android:onClick="weightloss"
+                    />
+
+            </LinearLayout>
+
+            <!-- Muscle Gain Section-->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:onClick="musclegain"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5dp"
+                            android:text="Muscle Gain"
+                            android:textColor="#000000"
+                            android:textSize="20.0dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5dp"
+                            android:text="Days 30"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5dp"
+                            android:text="15 Minutes Per Session"
+                            android:textColor="#ffff5722"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/exersice_1"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/startmusclegain"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn"
+                    android:text="Get Started"
+                    android:textAllCaps="true"
+                    android:onClick="musclegain"
+                    />
+
+            </LinearLayout>
+
+            <!-- Nutritional Section-->
+            <LinearLayout
+                android:onClick="food"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5dp"
+                            android:text="Nutritional Tips"
+                            android:textColor="#ff000000"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="Suggested Dietary Routine"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- Progress Tracking Section -->
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/backgroundcrop"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:onClick="progressTracking"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:padding="5dp"
+                            android:text="Progress Tracking"
+                            android:textColor="#000000"
+                            android:textSize="20.0dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5dp"
+                            android:text="Track your daily progress"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+0
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:padding="5dp"
+                            android:text="Visualize your workout journey"
+                            android:textColor="#ffff5722"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0">
+
+                        <pl.droidsonroids.gif.GifImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/exersice_5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/startprogresstracking"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/btn"
+                    android:text="Get Started"
+                    android:textAllCaps="true"
+                    android:onClick="progressTracking"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:id="@+id/fl_Adplaceholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
